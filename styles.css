@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  
+}
+
+.border{
+  width: 100%;
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 10px 10px 30px;
+  border: 10px solid #073642;
+  background-color: #eee8d5
+}
+
+h1 {
+  font-family: Monoton;
+  font-size: 70px;
+  margin: 0.2em;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #268bd2;
+  margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+#sizePicker{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #268bd2;
+}
+
+input[type=number] {
+  border-radius: 5px;
+  border: 2px solid #268bd2;
+  background-color: #fdf6e3;
+  padding: 15px; 
+  width: 200px;
+  height: 2px;
+}
+
+label{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 5px 0 ;
+  font-weight: bold;
+  color: #268bd2;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+input[type = submit]{
+  width: 15em;
+  display:block;
+  padding:10px;
+  margin: 20px 345px;
+  background-color: #268bd2;
+  border: none;
+  color: AliceBlue;
+  cursor: pointer;
+  font-size:15px;
+  align-items: center;
+  border-radius: 5px;
+  border: transparent;
+}
+input[type=submit]:hover {
+ background-color: AliceBlue;
+ color: RoyalBlue;
+}
+
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+input[type="number"] {
+  width: 6em;
+}
+
